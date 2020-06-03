@@ -8,11 +8,11 @@ class MainWindow(QMainWindow):
         answer = QMessageBox.question(window,None,"SAVE or NOT",
             QMessageBox.Save|
             QMessageBox.Discard|
-            QMessageBox.Cancle
+            QMessageBox.Cancel
             )
         if answer & QMessageBox.Save:
             save()
-        elif answer & QMessageBox.Cancle:
+        elif answer & QMessageBox.Cancel:
             e.ignore()
 
 app = QApplication([])
@@ -78,4 +78,4 @@ about_action.triggered.connect(show_about_dialog)
 
 window.show()
 text.show()
-app.exec()
+app.exec_()
