@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>618</width>
+    <height>555</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QWidget" name="gridLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>40</y>
+      <width>431</width>
+      <height>381</height>
+     </rect>
+    </property>
+    <layout class="QGridLayout" name="gridLayout">
+     <item row="2" column="2">
+      <widget class="QPushButton" name="btn3">
+       <property name="text">
+        <string>type3</string>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="1">
+      <widget class="QPushButton" name="btn4">
+       <property name="text">
+        <string>type4</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="1" colspan="2">
+      <widget class="QLabel" name="pic">
+       <property name="styleSheet">
+        <string notr="true">background-color:rgb(170, 85, 127)
+</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="2">
+      <widget class="QPushButton" name="btn1">
+       <property name="text">
+        <string>type1</string>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="2">
+      <widget class="QPushButton" name="btn5">
+       <property name="text">
+        <string>type5</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="1">
+      <widget class="QPushButton" name="btn2">
+       <property name="text">
+        <string>type2</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="1">
+      <widget class="QPushButton" name="btn">
+       <property name="text">
+        <string>original</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>btn</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>type0()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>149</x>
+     <y>334</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>31</x>
+     <y>338</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn1</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>type1()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>349</x>
+     <y>333</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>524</x>
+     <y>328</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn2</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>type2()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>81</x>
+     <y>378</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>18</x>
+     <y>378</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn3</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>type3()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>436</x>
+     <y>369</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>532</x>
+     <y>380</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn4</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>type4()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>76</x>
+     <y>402</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>23</x>
+     <y>431</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn5</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>type5()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>432</x>
+     <y>398</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>543</x>
+     <y>435</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <slot>type0()</slot>
+  <slot>type1()</slot>
+  <slot>type2()</slot>
+  <slot>type3()</slot>
+  <slot>type4()</slot>
+  <slot>type5()</slot>
+ </slots>
+</ui>
